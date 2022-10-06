@@ -15,9 +15,9 @@ module BCDtoFND(
     );
 
     BCDtoFND_Decoder fndFontDecoder(
-    .i_value(i_value),
-    .i_en(i_en),
-    .o_font(o_fndFont)
+        .i_value(i_value),
+        .i_en(i_en),
+        .o_font(o_fndFont)
     );
 
 endmodule
